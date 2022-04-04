@@ -6,13 +6,13 @@ on:
       - main
 
 env:
-  RESOURCEGROUPNAME: "secret-store-csi-aks-akv-rg"
+  RESOURCEGROUPNAME: "AKVDemo"
   LOCATION: "East US"
   KEYVAULTNAME: "secretstorecsiakv"
   IMAGENAME: "secretstorecsiaksakv86bb"
   REGISTRYSKU: "Standard"
   REGISTRYNAME: "secretstorecsiaksakvacr"
-  REGISTRYLOCATION: "South Central US"
+  REGISTRYLOCATION: "East US"
   CLUSTERNAME: "secret-store-csi-aks-akv"
   APPINSIGHTSLOCATION: "East US"
   CLUSTERLOCATION: "East US"
